@@ -13,7 +13,10 @@ format: revealjs
 $$
 f(x) = \int_{0}^{T} g(s,x) ds
 $$
-  
+
+## Here is a picture :
+
+![Test](https://github.com/SamyMekk/NN_Quarto_Slides/img/500x300png)
 
 
 ## Breakfast
