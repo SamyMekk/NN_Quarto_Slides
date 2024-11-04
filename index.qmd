@@ -16,7 +16,7 @@ $$
 
 ## Here is a picture :
 
-![Test](https://samymekk.github.io/img/500x300png)
+![Test](/img/500x300png)
 
 
 ## Breakfast
