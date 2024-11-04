@@ -16,7 +16,7 @@ $$
 
 ## Here is a picture :
 
-![Test](https://github.com/SamyMekk/NN_Quarto_Slides/img/500x300png)
+![Test](https://samymekk.github.io/img/500x300png)
 
 
 ## Breakfast
