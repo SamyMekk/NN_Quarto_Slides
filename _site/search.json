@@ -1,24 +1,10 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Slides",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
     "objectID": "index.html#getting-up",
     "href": "index.html#getting-up",
     "title": "Habits",
     "section": "Getting up",
-    "text": "Getting up\n\nTurn off alarm\nGet out of bed"
+    "text": "Getting up\n\nLet’s put some maths here :\n\n\\[\nf(x) = \\int_{0}^{T} g(s,x) ds\n\\]"
   },
   {
     "objectID": "index.html#breakfast",

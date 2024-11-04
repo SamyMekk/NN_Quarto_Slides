@@ -1,6 +1,6 @@
 ---
 title: "Habits"
-author: "John Doe"
+author: "Samy  Mekkaoui"
 format: revealjs
 ---
 
@@ -8,8 +8,13 @@ format: revealjs
 
 ## Getting up
 
-- Turn off alarm
-- Get out of bed
+- Let's put some maths here :
+  
+$$
+f(x) = \int_{0}^{T} g(s,x) ds
+$$
+  
+
 
 ## Breakfast
 
