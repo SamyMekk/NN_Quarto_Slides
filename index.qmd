@@ -1,7 +1,18 @@
 ---
 title: "Habits"
+subtitle:
+   ENSAE 3A 2023-2024
 author: "Samy  Mekkaoui"
-format: revealjs
+format: onyxia-revealjs
+slide-number: true
+footer:
+   Slides
+# uncomment for French presentations:
+lang: fr-FR
+# for blind readers:
+slide-tone: false
+chalkboard: # press the B key to toggle chalkboard
+  theme: whiteboard
 ---
 
 # In the morning
