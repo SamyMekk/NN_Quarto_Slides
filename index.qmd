@@ -1,7 +1,15 @@
 ---
-title: "Habits"
+title: "Slides Test"
+subtitle:
+     CMAP Ecole Polytechnique
 author: "Samy  Mekkaoui"
-format: revealjs
+slide-number: true
+footer:
+     Seminaires Presentation
+
+format: onyxia-revealjs
+       incremental: true
+css : styles.css
 ---
 
 # In the morning
