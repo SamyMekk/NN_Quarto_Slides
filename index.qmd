@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Slides Test"
 subtitle:
      CMAP Ecole Polytechnique
@@ -10,13 +11,29 @@ footer:
 format: onyxia-revealjs
        incremental: true
 css : styles.css
+=======
+title: "Habits"
+subtitle:
+   ENSAE 3A 2023-2024
+author: "Samy  Mekkaoui"
+format: onyxia-revealjs
+slide-number: true
+footer:
+   Slides
+# uncomment for French presentations:
+lang: fr-FR
+# for blind readers:
+slide-tone: false
+chalkboard: # press the B key to toggle chalkboard
+  theme: whiteboard
+>>>>>>> 1492345ac4ae54ff993b3fa674c51e38b6498b75
 ---
 
 # In the morning
 
 ## Getting up
 
-- Let's put some maths here :
+- Let's put some maths here to check if it works :
   
 $$
 f(x) = \int_{0}^{T} g(s,x) ds
