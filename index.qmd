@@ -6,12 +6,37 @@ author: "Samy  Mekkaoui"
 slide-number: true
 footer: | 
      Seminaires Presentation
+slide-tone: false
 format: revealjs
 incremental: True
+controls: true
+output-file: index.html
 css : styles.css
+from: markdown+emoji
 ---
 
 # In the morning
+
+
+## Contexte
+
+- [**Qui sommes-nous ?**]{.orange}
+    - des [**data scientists**]{.blue2} de l'Insee
+    - frustrés par l'[**approche**]{.blue2} souvent purement [**technique**]{.blue2} de la data science
+    - convaincus que les [**bonnes pratiques de développement**]{.blue2} valent à être enseignées
+
+
+
+
+## Qu'est ce qu'un data scientist ?
+
+![](img/sexiest-job.png){fig-align="center" height=250}
+
+- Tendance à la [**spécialisation**]{.orange} : *data analyst*, *data engineer*, *ML Engineer*...
+
+- Rôle d'[**interface**]{.orange} entre métier et équipes techniques
+    - [**Compétences mixtes**]{.blue2} : savoir métier, modélisation, IT
+
 
 ## Getting up
 
@@ -21,9 +46,88 @@ $$
 f(x) = \int_{0}^{T} g(s,x) ds
 $$
 
-## Here is a picture :
+## La notion de mise en production
 
-![](/img/control_battery.jpg){width=300}
+- [**Mettre en production**]{.orange} : faire [**vivre**]{.blue2} une application dans l'espace de ses [**utilisateurs**]{.blue2}
+    - Notion simple mais mise en oeuvre compliquée !
+
+- [**Dépasser le stade de l'expérimentation**]{.orange}
+    - Comprendre les [**besoins**]{.blue2} des utilisateurs
+    - [**Bonnes pratiques**]{.blue2} de développement
+    - Techniques informatiques d'[**industrialisation**]{.blue2}
+
+## Contenu du cours {.scrollable}
+
+- [**Pré-requis**]{.orange}
+    - Introduction au terminal `Linux`
+    - [**Contrôle de version**]{.blue2} avec `Git`
+
+- [**Bonnes pratiques**]{.orange} de développement
+    - [**Travail collaboratif**]{.blue2} avec `Git`
+    - [**Qualité**]{.blue2} du code
+    - [**Structure**]{.blue2} des projets
+    - Traitement des [**données volumineuses**]{.blue2}
+    - Favoriser la [**portabilité**]{.blue2} d'une application
+
+- [**Mise en production**]{.orange}
+    - [**Déploiement**]{.blue2}
+    - [**MLOps**]{.blue2}
+
+
+
+# Partie :one: : bonnes pratiques de développement
+
+## Plan de la partie
+
+:one: [**Travail collaboratif**]{.blue2} avec `Git`
+
+:two: [**Qualité**]{.blue2} du code
+
+:three: [**Structure**]{.blue2} des projets
+
+:four: Traitement des [**données volumineuses**]{.blue2}
+
+:five: Favoriser la [**portabilité**]{.blue2} d'une application
+
+
+# :one: Le travail collaboratif avec `Git`
+
+## Pourquoi utiliser Git ?
+
+![Source : [ThinkR](https://thinkr.fr/travailler-avec-git-via-rstudio-et-versionner-son-code/)](img/timeline.png){fig-align="center" height=475}
+
+## Concepts essentiels
+
+![Source : [fabacademy.org](http://fabacademy.org/2021/labs/bhubaneswar/students/deepak-chaudhry/ia_PPFP.html)](img/gitallinone.png){height="400" fig-align="center"}
+
+## Bonnes pratiques {auto-animate=true .smaller}
+
+__Que versionne-t-on ?__
+
+- Essentiellement du [**code source**]{.orange}
+- [__Pas d'outputs__]{.orange} (fichiers `.html`, `.pdf`, modèles...)
+- [__Pas de données__]{.orange}, d'informations locales ou sensibles
+
+. . .
+
+:::{.callout-note}
+
+Pour définir des règles qui évitent de committer tel ou tel fichier, on utilise
+un fichier nommé __`.gitignore`__.
+
+Si on mélange du code et des éléments
+annexes (_output_, données...) dans un même dossier, il [__faut consacrer du temps à ce fichier__]{.orange}.
+
+Le site [`gitignore.io`](https://www.toptal.com/developers/gitignore) peut vous fournir
+des modèles.
+
+N'hésitez pas à y ajouter des règles conservatrices (par exemple `*.csv`), 
+comme cela est expliqué dans [la documentation `utilitR`](https://www.book.utilitr.org/git.html?q=gitignore#gitignore).
+
+:::
+
+## Bonnes pratiques {auto-animate=true .smaller}
+
 
 
 ## Breakfast

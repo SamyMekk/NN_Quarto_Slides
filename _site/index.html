@@ -343,6 +343,32 @@ Samy Mekkaoui
 <h1>In the morning</h1>
 
 </section>
+<section id="contexte" class="slide level2">
+<h2>Contexte</h2>
+<ul>
+<li class="fragment"><span class="orange"><strong>Qui sommes-nous ?</strong></span>
+<ul>
+<li class="fragment">des <span class="blue2"><strong>data scientists</strong></span> de l’Insee</li>
+<li class="fragment">frustrés par l’<span class="blue2"><strong>approche</strong></span> souvent purement <span class="blue2"><strong>technique</strong></span> de la data science</li>
+<li class="fragment">convaincus que les <span class="blue2"><strong>bonnes pratiques de développement</strong></span> valent à être enseignées</li>
+</ul></li>
+</ul>
+</section>
+<section id="quest-ce-quun-data-scientist" class="slide level2">
+<h2>Qu’est ce qu’un data scientist ?</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/sexiest-job.png" class="quarto-figure quarto-figure-center" height="250"></p>
+</figure>
+</div>
+<ul>
+<li class="fragment"><p>Tendance à la <span class="orange"><strong>spécialisation</strong></span> : <em>data analyst</em>, <em>data engineer</em>, <em>ML Engineer</em>…</p></li>
+<li class="fragment"><p>Rôle d’<span class="orange"><strong>interface</strong></span> entre métier et équipes techniques</p>
+<ul>
+<li class="fragment"><span class="blue2"><strong>Compétences mixtes</strong></span> : savoir métier, modélisation, IT</li>
+</ul></li>
+</ul>
+</section>
 <section id="getting-up" class="slide level2">
 <h2>Getting up</h2>
 <ul>
@@ -352,10 +378,110 @@ Samy Mekkaoui
 f(x) = \int_{0}^{T} g(s,x) ds
 \]</span></p>
 </section>
-<section id="here-is-a-picture" class="slide level2">
-<h2>Here is a picture :</h2>
+<section id="la-notion-de-mise-en-production" class="slide level2">
+<h2>La notion de mise en production</h2>
+<ul>
+<li class="fragment"><span class="orange"><strong>Mettre en production</strong></span> : faire <span class="blue2"><strong>vivre</strong></span> une application dans l’espace de ses <span class="blue2"><strong>utilisateurs</strong></span>
+<ul>
+<li class="fragment">Notion simple mais mise en oeuvre compliquée !</li>
+</ul></li>
+<li class="fragment"><span class="orange"><strong>Dépasser le stade de l’expérimentation</strong></span>
+<ul>
+<li class="fragment">Comprendre les <span class="blue2"><strong>besoins</strong></span> des utilisateurs</li>
+<li class="fragment"><span class="blue2"><strong>Bonnes pratiques</strong></span> de développement</li>
+<li class="fragment">Techniques informatiques d’<span class="blue2"><strong>industrialisation</strong></span></li>
+</ul></li>
+</ul>
+</section>
+<section id="contenu-du-cours" class="slide level2 scrollable">
+<h2>Contenu du cours</h2>
+<ul>
+<li class="fragment"><span class="orange"><strong>Pré-requis</strong></span>
+<ul>
+<li class="fragment">Introduction au terminal <code>Linux</code></li>
+<li class="fragment"><span class="blue2"><strong>Contrôle de version</strong></span> avec <code>Git</code></li>
+</ul></li>
+<li class="fragment"><span class="orange"><strong>Bonnes pratiques</strong></span> de développement
+<ul>
+<li class="fragment"><span class="blue2"><strong>Travail collaboratif</strong></span> avec <code>Git</code></li>
+<li class="fragment"><span class="blue2"><strong>Qualité</strong></span> du code</li>
+<li class="fragment"><span class="blue2"><strong>Structure</strong></span> des projets</li>
+<li class="fragment">Traitement des <span class="blue2"><strong>données volumineuses</strong></span></li>
+<li class="fragment">Favoriser la <span class="blue2"><strong>portabilité</strong></span> d’une application</li>
+</ul></li>
+<li class="fragment"><span class="orange"><strong>Mise en production</strong></span>
+<ul>
+<li class="fragment"><span class="blue2"><strong>Déploiement</strong></span></li>
+<li class="fragment"><span class="blue2"><strong>MLOps</strong></span></li>
+</ul></li>
+</ul>
+</section></section>
+<section>
+<section id="partie-1-bonnes-pratiques-de-développement" class="title-slide slide level1 center">
+<h1>Partie <span class="emoji" data-emoji="one">1️⃣</span> : bonnes pratiques de développement</h1>
 
-<img data-src=".\img/control_battery.jpg" width="300" class="r-stretch"></section>
+</section>
+<section id="plan-de-la-partie" class="slide level2">
+<h2>Plan de la partie</h2>
+<p><span class="emoji" data-emoji="one">1️⃣</span> <span class="blue2"><strong>Travail collaboratif</strong></span> avec <code>Git</code></p>
+<p><span class="emoji" data-emoji="two">2️⃣</span> <span class="blue2"><strong>Qualité</strong></span> du code</p>
+<p><span class="emoji" data-emoji="three">3️⃣</span> <span class="blue2"><strong>Structure</strong></span> des projets</p>
+<p><span class="emoji" data-emoji="four">4️⃣</span> Traitement des <span class="blue2"><strong>données volumineuses</strong></span></p>
+<p><span class="emoji" data-emoji="five">5️⃣</span> Favoriser la <span class="blue2"><strong>portabilité</strong></span> d’une application</p>
+</section></section>
+<section>
+<section id="le-travail-collaboratif-avec-git" class="title-slide slide level1 center">
+<h1><span class="emoji" data-emoji="one">1️⃣</span> Le travail collaboratif avec <code>Git</code></h1>
+
+</section>
+<section id="pourquoi-utiliser-git" class="slide level2">
+<h2>Pourquoi utiliser Git ?</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/timeline.png" height="475"></p>
+<figcaption>Source : <a href="https://thinkr.fr/travailler-avec-git-via-rstudio-et-versionner-son-code/">ThinkR</a></figcaption>
+</figure>
+</div>
+</section>
+<section id="concepts-essentiels" class="slide level2">
+<h2>Concepts essentiels</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/gitallinone.png" height="400"></p>
+<figcaption>Source : <a href="http://fabacademy.org/2021/labs/bhubaneswar/students/deepak-chaudhry/ia_PPFP.html">fabacademy.org</a></figcaption>
+</figure>
+</div>
+</section>
+<section id="bonnes-pratiques" class="slide level2 smaller" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Bonnes pratiques</h2>
+<p><strong>Que versionne-t-on ?</strong></p>
+<ul>
+<li class="fragment">Essentiellement du <span class="orange"><strong>code source</strong></span></li>
+<li class="fragment"><span class="orange"><strong>Pas d’outputs</strong></span> (fichiers <code>.html</code>, <code>.pdf</code>, modèles…)</li>
+<li class="fragment"><span class="orange"><strong>Pas de données</strong></span>, d’informations locales ou sensibles</li>
+</ul>
+<div class="fragment">
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Note</strong></p>
+</div>
+<div class="callout-content">
+<p>Pour définir des règles qui évitent de committer tel ou tel fichier, on utilise un fichier nommé <strong><code>.gitignore</code></strong>.</p>
+<p>Si on mélange du code et des éléments annexes (<em>output</em>, données…) dans un même dossier, il <span class="orange"><strong>faut consacrer du temps à ce fichier</strong></span>.</p>
+<p>Le site <a href="https://www.toptal.com/developers/gitignore"><code>gitignore.io</code></a> peut vous fournir des modèles.</p>
+<p>N’hésitez pas à y ajouter des règles conservatrices (par exemple <code>*.csv</code>), comme cela est expliqué dans <a href="https://www.book.utilitr.org/git.html?q=gitignore#gitignore">la documentation <code>utilitR</code></a>.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="bonnes-pratiques-1" class="slide level2 smaller" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Bonnes pratiques</h2>
+</section>
 <section id="breakfast" class="slide level2">
 <h2>Breakfast</h2>
 <ul>
@@ -412,7 +538,7 @@ f(x) = \int_{0}^{T} g(s,x) ds
       // Full list of configuration options available at:
       // https://revealjs.com/config/
       Reveal.initialize({
-'controlsAuto': true,
+'controlsAuto': false,
 'previewLinksAuto': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
@@ -423,7 +549,7 @@ f(x) = \int_{0}^{T} g(s,x) ds
 'smaller': false,
  
         // Display controls in the bottom right corner
-        controls: false,
+        controls: true,
 
         // Help the user learn the controls by providing hints, for example by
         // bouncing the down arrow when they first encounter a vertical slide
