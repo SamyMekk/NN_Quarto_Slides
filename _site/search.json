@@ -2,35 +2,35 @@
   {
     "objectID": "index.html#getting-up",
     "href": "index.html#getting-up",
-    "title": "Habits",
+    "title": "Slides Test",
     "section": "Getting up",
-    "text": "Getting up\n\nLet’s put some maths here :\n\n\\[\nf(x) = \\int_{0}^{T} g(s,x) ds\n\\]"
+    "text": "Getting up\n\nLet’s put some maths here to check if it works :\n\n\\[\nf(x) = \\int_{0}^{T} g(s,x) ds\n\\]"
   },
   {
     "objectID": "index.html#here-is-a-picture",
     "href": "index.html#here-is-a-picture",
-    "title": "Habits",
+    "title": "Slides Test",
     "section": "Here is a picture :",
     "text": "Here is a picture :"
   },
   {
     "objectID": "index.html#breakfast",
     "href": "index.html#breakfast",
-    "title": "Habits",
+    "title": "Slides Test",
     "section": "Breakfast",
     "text": "Breakfast\n\nEat eggs\nDrink coffee"
   },
   {
     "objectID": "index.html#dinner",
     "href": "index.html#dinner",
-    "title": "Habits",
+    "title": "Slides Test",
     "section": "Dinner",
     "text": "Dinner\n\nEat spaghetti\nDrink wine"
   },
   {
     "objectID": "index.html#going-to-sleep",
     "href": "index.html#going-to-sleep",
-    "title": "Habits",
+    "title": "Slides Test",
     "section": "Going to sleep",
     "text": "Going to sleep\n\nGet in bed\nCount sheep"
   }
