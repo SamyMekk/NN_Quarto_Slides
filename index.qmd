@@ -7,7 +7,7 @@ slide-number: true
 footer: | 
      Seminaires Presentation
 slide-tone: false
-format: beamer
+format: revealjs
 incremental: True
 controls: true
 output-file: index.html
