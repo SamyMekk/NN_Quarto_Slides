@@ -21,7 +21,7 @@ from: markdown+emoji
 ## Contexte
 
 - [**Qui sommes-nous ?**]{.orange}
-    - des [**data scientists**]{.blue2} de l'Insee
+    - des [**data scientists de formation**]{.blue2} de l'Insee
     - frustrés par l'[**approche**]{.blue2} souvent purement [**technique**]{.blue2} de la data science
     - convaincus que les [**bonnes pratiques de développement**]{.blue2} valent à être enseignées
 
