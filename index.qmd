@@ -7,7 +7,7 @@ slide-number: true
 footer: | 
      Seminaires Presentation
 slide-tone: false
-format: beamer
+format: revealjs
 incremental: True
 controls: true
 output-file: index.html
@@ -30,7 +30,6 @@ from: markdown+emoji
 
 ## Qu'est ce qu'un data scientist ?
 
-![](img/sexiest-job.png){fig-align="center" height=250}
 
 - Tendance à la [**spécialisation**]{.orange} : *data analyst*, *data engineer*, *ML Engineer*...
 
@@ -94,11 +93,10 @@ $$
 
 ## Pourquoi utiliser Git ?
 
-![Source : [ThinkR](https://thinkr.fr/travailler-avec-git-via-rstudio-et-versionner-son-code/)](img/timeline.png){fig-align="center" height=475}
 
 ## Concepts essentiels
 
-![Source : [fabacademy.org](http://fabacademy.org/2021/labs/bhubaneswar/students/deepak-chaudhry/ia_PPFP.html)](img/gitallinone.png){height="400" fig-align="center"}
+
 
 ## Bonnes pratiques {auto-animate=true .smaller}
 
