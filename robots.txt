@@ -1,1 +1,1 @@
-Sitemap: https://SamyMekk.github.io/NN_Quarto_Slides/sitemap.xml
+Sitemap: https://SamyMekk.github.io/quartotest/sitemap.xml
